@@ -1,0 +1,33 @@
+{
+  "name": "pump-bundle-check",
+  "version": "0.1.0",
+  "description": "Open bundle and insider check for Pump.fun launches: who bought together, how much they took, what they still hold.",
+  "type": "module",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "bin": {
+    "bundle": "src/cli.ts"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "bundle": "tsx src/cli.ts"
+  },
+  "keywords": [
+    "solana",
+    "pumpfun",
+    "bundle",
+    "rug",
+    "insider",
+    "jito"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.3"
+  }
+}
