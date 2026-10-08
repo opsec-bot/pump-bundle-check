@@ -1,0 +1,107 @@
+{
+ "mint": "8U8oQC8dh3c1UxjBr2Yc1Q8tBrueKwBpnqqVobVFpump",
+ "supply": 1000000000,
+ "create": {
+  "signature": "5VQKk4b7Z12XkrcUA3JR4C7XyKCSsMB4xTS1KmmywJrcTuezGqrQ583PhG2zBWxuPfkAx4fsX7sGZQuiDCVAwTzo",
+  "slot": 454659663,
+  "blockTime": 1791493488,
+  "creator": "JCGjLMrCbFHExLUSiFvEVhdsKnth7YZowkHvpiCYWTuw"
+ },
+ "buys": [
+  {
+   "wallet": "JCGjLMrCbFHExLUSiFvEVhdsKnth7YZowkHvpiCYWTuw",
+   "signature": "5VQKk4b7Z12XkrcUA3JR4C7XyKCSsMB4xTS1KmmywJrcTuezGqrQ583PhG2zBWxuPfkAx4fsX7sGZQuiDCVAwTzo",
+   "slot": 454659663,
+   "txIndex": 854,
+   "blockTime": 1791493488,
+   "tokens": 50000000,
+   "solSpent": 1.493864946,
+   "inCreateTx": true,
+   "buyersInTx": 1
+  },
+  {
+   "wallet": "D5BDDkBtjjva35nwu45WfmZgytsog9GST2tHQaZUYuFX",
+   "signature": "3BKfZRqnS2stMPC5cQMUNsFRKKtuxtHAMHuVf1D1CdnocE466WzZVXfSxxyvnyNN3eT7wvB69SwfwKsJzoH665ZV",
+   "slot": 454659663,
+   "txIndex": 935,
+   "blockTime": 1791493488,
+   "tokens": 31132450.491844,
+   "solSpent": 1.00403928,
+   "inCreateTx": false,
+   "buyersInTx": 1
+  },
+  {
+   "wallet": "G9sQPg9Eimkwe72w1xH1tPUc9RFNuK6Ufw5AyWy6j7ob",
+   "signature": "4THeobmMVhziJzc4MeDfr4qvTGcKbuDp1h6XJhdf6dgNV75F5DLzEYLibusAWgPDjAJFR3U8TGQUh5TpiSTeYAWH",
+   "slot": 454659663,
+   "txIndex": 943,
+   "blockTime": 1791493488,
+   "tokens": 29293536.466122,
+   "solSpent": 1.00348844,
+   "inCreateTx": false,
+   "buyersInTx": 1
+  },
+  {
+   "wallet": "AMDEmVocLtN5ji2gBY7BrmSHEyM5vt6TGszBbg4crMXg",
+   "signature": "3ULq9pfqtV7Sr6iSzfdYZSTuVtfAk2jL98SWaA3uV9cq7msCiVefPNETGHTNSMmQDLh4tWfVQ6i8jandzVAdN2Ar",
+   "slot": 454659663,
+   "txIndex": 948,
+   "blockTime": 1791493488,
+   "tokens": 43576591.08527,
+   "solSpent": 1.608706516,
+   "inCreateTx": false,
+   "buyersInTx": 1
+  },
+  {
+   "wallet": "6anjqMeWigQFo5wpciARAunVQUXTqoat8w8fFWarCkpc",
+   "signature": "24yzVYyEZ7vFGcZUi38WYf7QDhvbyAUvwhDnE3o8uWSro71N2H8F1TBKhxkEc5yH8T37sxECM8cY2wF2i6ohW2BV",
+   "slot": 454659663,
+   "txIndex": 1026,
+   "blockTime": 1791493488,
+   "tokens": 12776223.591337,
+   "solSpent": 0.5035576,
+   "inCreateTx": false,
+   "buyersInTx": 1
+  }
+ ],
+ "bundles": {
+  "5VQKk4b7Z12XkrcUA3JR4C7XyKCSsMB4xTS1KmmywJrcTuezGqrQ583PhG2zBWxuPfkAx4fsX7sGZQuiDCVAwTzo": "98b624c3bbb902a5dcb31a965658f327aabec50d8f97ca217e9ebc75911e3eaf",
+  "3BKfZRqnS2stMPC5cQMUNsFRKKtuxtHAMHuVf1D1CdnocE466WzZVXfSxxyvnyNN3eT7wvB69SwfwKsJzoH665ZV": null,
+  "4THeobmMVhziJzc4MeDfr4qvTGcKbuDp1h6XJhdf6dgNV75F5DLzEYLibusAWgPDjAJFR3U8TGQUh5TpiSTeYAWH": "83825e99100e555329625bbe2bf3e86758274a435a84d5333a1c8b66db28f85a",
+  "3ULq9pfqtV7Sr6iSzfdYZSTuVtfAk2jL98SWaA3uV9cq7msCiVefPNETGHTNSMmQDLh4tWfVQ6i8jandzVAdN2Ar": "2fc246f03e86d4e201d30ad7d56c923959ed51af444bda28e667f2d48fb9dbcb",
+  "24yzVYyEZ7vFGcZUi38WYf7QDhvbyAUvwhDnE3o8uWSro71N2H8F1TBKhxkEc5yH8T37sxECM8cY2wF2i6ohW2BV": "c1ea78acb126236112fbe4a5a443f556b4daa9b0ff3bf06458f5cb0c7975babc"
+ },
+ "funding": {
+  "JCGjLMrCbFHExLUSiFvEVhdsKnth7YZowkHvpiCYWTuw": {
+   "funder": "99op4B7ftEikAdPpeHHsDfHivJm3r5tuoc3D9QnaSUgg",
+   "firstSeen": 1791493463
+  },
+  "D5BDDkBtjjva35nwu45WfmZgytsog9GST2tHQaZUYuFX": {
+   "funder": null,
+   "firstSeen": null,
+   "busy": true
+  },
+  "G9sQPg9Eimkwe72w1xH1tPUc9RFNuK6Ufw5AyWy6j7ob": {
+   "funder": null,
+   "firstSeen": null,
+   "busy": true
+  },
+  "AMDEmVocLtN5ji2gBY7BrmSHEyM5vt6TGszBbg4crMXg": {
+   "funder": null,
+   "firstSeen": null,
+   "busy": true
+  },
+  "6anjqMeWigQFo5wpciARAunVQUXTqoat8w8fFWarCkpc": {
+   "funder": null,
+   "firstSeen": null,
+   "busy": true
+  }
+ },
+ "holdings": {
+  "JCGjLMrCbFHExLUSiFvEVhdsKnth7YZowkHvpiCYWTuw": 0,
+  "D5BDDkBtjjva35nwu45WfmZgytsog9GST2tHQaZUYuFX": 0,
+  "G9sQPg9Eimkwe72w1xH1tPUc9RFNuK6Ufw5AyWy6j7ob": 0,
+  "AMDEmVocLtN5ji2gBY7BrmSHEyM5vt6TGszBbg4crMXg": 0,
+  "6anjqMeWigQFo5wpciARAunVQUXTqoat8w8fFWarCkpc": 0
+ }
+}

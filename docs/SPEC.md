@@ -34,7 +34,7 @@ Each signal is evidence with a weight. A wallet's score is `1 - product(1 - w)` 
 | `same_bundle_as_create` | Jito bundle id equals the creation transaction's | 0.8 |
 | `multi_buyer_tx` | shared a transaction with other buying signers | 0.7 |
 | `shared_funder` | first SOL came from the same address as `n - 1` other launch buyers | `1 - 0.75^(n-1)`, max 0.9 |
-| `same_slot_as_create` | bought in the creation slot | 0.5 |
+| `same_slot_as_create` | bought in the creation slot (snipers do too, so never enough alone) | 0.3 |
 | `fresh_wallet` | first transaction under an hour before the buy | 0.2 |
 
 A wallet with a score of 0.5 or more is an **insider**. Insiders linked by shared transactions, bundles or funders are
@@ -42,6 +42,8 @@ grouped with union-find.
 
 ## Output
 - Per wallet: score, signals with signatures, tokens bought, SOL spent, current holding.
+- The creator's first funder and the age of the creator's wallet at creation.
+- Wallets with 1000+ transactions are marked: their funding is not traced, and they are often bots.
 - Totals: insider share of supply bought at launch, insider share held now, total launch buys.
 - Verdict on the launch share: under 5% `low`, under 20% `medium`, 20% or more `high`.
 - Holder concentration among the launch buyers: HHI and Gini of tokens bought.
